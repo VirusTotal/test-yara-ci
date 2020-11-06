@@ -8,3 +8,10 @@ rule test_2 {
   condition:
      all of them
 }
+
+rule test_3 {
+  strings:
+     $ = "foobarbazquux"
+  condition:
+     all of them
+}
