@@ -4,7 +4,7 @@ rule test_1 {
 
 rule test_2 {
   strings:
-     $ = "foobarbaz"
+     $ = "foobar"
   condition:
      all of them
 }
