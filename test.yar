@@ -15,3 +15,10 @@ rule test_3 {
   condition:
      all of them
 }
+
+rule test_4 {
+  strings:
+     $ = "foobarbazquux"
+  condition:
+     all of them
+}
