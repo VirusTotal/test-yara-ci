@@ -22,3 +22,11 @@ rule test_4 {
   condition:
      all of them
 }
+
+
+rule test_5 {
+  strings:
+     $ = "foobarbazquux"
+  condition:
+     all of them
+}
