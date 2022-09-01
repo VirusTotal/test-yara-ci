@@ -30,3 +30,5 @@ rule test_5 {
   condition:
      all of them
 }
+
+
