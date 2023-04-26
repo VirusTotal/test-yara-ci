@@ -1,0 +1,22 @@
+files:
+  accept:
+  - "**.yar"
+  - "**.yara"
+  ignore:
+  - "miscellaneous/crowdstrike_shellter.yara"
+false_positives:
+  ignore:
+    - rule: "pe_contains_wevt_template"
+    - rule: "susp_fully_hex_encoded_file_alt"
+    - rule: "zip_encrypted_single_file"
+    - rule: "multiple_exports_same_rva"
+    - rule: "dll_multiple_exports_same_rva"
+    - rule: "check_unwanted_files"
+    - rule: "FBI_Flash_Alert"
+    - rule: "heuristic_tiny_file_eval"
+    - rule: "SUSP_PEB_Access"
+    - rule: "two_byte_xor_pe_and_mz"
+    - rule: "four_byte_xor_pe_and_mz"
+    - rule: "single_byte_xor_pe_and_mz"
+    - rule: "win_plugx_encrypted_hunting"
+    - rule: "zip_compressed_with_LZMA"
