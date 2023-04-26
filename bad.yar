@@ -1,8 +1,8 @@
 rule test
 {
     meta:
-
-    hash = "c05aced06b1f787002fe1d1771a2e12463bab3d58e63daf3c364141784afaacc"
+        hash = "b05aced06b1f787002fe1d1771a2e12463bab3d58e63daf3c364141784afaacc"
+        hash = "c05aced06b1f787002fe1d1771a2e12463bab3d58e63daf3c364141784afaacc"
         hash = "9562da870dcd42966a0ef53d820ccc3c1829f5df35a63aae6bf4ac038173ce51"
         hash = "f02d9fbc0ee0e697ba023ca8f584b5d1b63d4694354684222a1410ff475122fc"
         hash = "d0da52523e6dd22b7dd8c4c25fa42536917b965a07730df70f6a2ff563b82540"
