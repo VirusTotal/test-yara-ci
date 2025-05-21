@@ -8,5 +8,5 @@ rule test
         $x3 = "/dev/watchdog" ascii
         $x5 = ".mdebug.abi32" fullword ascii
     condition:
-        uint16(0) == 0x457f and filesize < 200KB and all of them
+        uint16(0) == 0x457f and filesize < 200KB and any of them
 }
